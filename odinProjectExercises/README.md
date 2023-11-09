@@ -1,0 +1,1 @@
+This folder is dedicated to practice that was delegated by the Odin Project
