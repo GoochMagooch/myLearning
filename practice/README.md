@@ -1,0 +1,1 @@
+This folder is dedicated to any random practice I choose to undertake. Usually when I watch videos about how to implement a particular coding principle, I want to try it out for myself to make sure I understand it. That's what this folder will be for
