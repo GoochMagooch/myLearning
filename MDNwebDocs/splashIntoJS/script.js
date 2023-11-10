@@ -15,12 +15,13 @@ let resetButton;
 function checkGuess() {
 // storing user input (guess) into a constant of 'userGuess'
     const guess = Number(guessField.value);
-// conditional denoting     
+// conditional denoting something...
     if (guessCount === 1) {
         guesses.textContent = "Previous guesses: ";
     }
-    guesses.textContent = `${guesses.textContent} ${userGuess}`;
-
+    guesses.textContent = `${guesses.textContent}${guess}`;
+// conditional denoting the results of a correct answer, an answer that is
+// too low and an answer that is to high
     if (guess === raNum) {
         lastResult.textContent = "You guessed the number, congratulations!";
         lastResult.style.backgroundColor = "green";
@@ -44,3 +45,4 @@ guessCount++;
 guessField.value = "";
 guessField.focus();
 }
+
