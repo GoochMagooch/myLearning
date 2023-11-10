@@ -10,6 +10,7 @@ const guess = document.querySelector(".guessField");
 
 let guessCount = 1;
 let resetButton;
+guessField.focus();
 
 // function used for number guess calculations
 function checkGuess() {
