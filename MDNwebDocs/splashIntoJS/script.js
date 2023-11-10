@@ -11,10 +11,11 @@ const guess = document.querySelector(".guessField");
 let guessCount = 1;
 let resetButton;
 
-// Function that checks the users guess and runs it through a series of
-// conditional statements, resulting in one of many results
+// function used for number guess calculations
 function checkGuess() {
-    const userGuess = Number(guessField.value);
+// storing user input (guess) into a constant of 'userGuess'
+    const guess = Number(guessField.value);
+// conditional denoting     
     if (guessCount === 1) {
         guesses.textContent = "Previous guesses: ";
     }
