@@ -77,5 +77,3 @@ function resetGame() {
   
     raNum = Math.floor(Math.random() * 100) + 1;
   }
-  
-  resetButton.addEventListener("click", resetGame);
