@@ -19,7 +19,7 @@ function checkGuess() {
     if (guessCount === 1) {
         guesses.textContent = "Previous guesses: ";
     }
-    guesses.textContent = `${guesses.textContent}${guess}`;
+    guesses.textContent = `${guesses.textContent} ${guess}`;
 // conditional denoting the results of a correct answer, an answer that is
 // too low and an answer that is to high
     if (guess === raNum) {
@@ -46,3 +46,13 @@ guessField.value = "";
 guessField.focus();
 }
 
+guessSubmit.addEventListener("click", checkGuess);
+
+function setGameOver() {
+    guessField.disabled = true;
+    guessSubmit.disabled = true;
+    resetButton = document.createElement("button");
+    resetButton.textContent = "start new game?";
+    document.body.append(resetButton);
+    resetButton.addEventListener("click", resetGame);
+}
