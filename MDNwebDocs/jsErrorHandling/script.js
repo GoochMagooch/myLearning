@@ -1,4 +1,4 @@
-let randomNumber = Math.floor(Math.random()) + 1;
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 const guesses = document.querySelector('.guesses');
 const lastResult = document.querySelector('.lastResult');
@@ -39,6 +39,7 @@ guessCount++;
 guessField.value = '';
 guessField.focus();
 }
+
 guessSubmit.addeventListener('click', checkGuess);
 
 function setGameOver() {
@@ -66,5 +67,5 @@ for (const resetPara of resetParas) {
 
 	lastResult.style.backgroundColor = 'white';
 
-	randomNumber = Math.floor(Math.random()) + 1;
+	randomNumber = Math.floor(Math.random() * 100) + 1;
 }
