@@ -12,3 +12,16 @@ const birds = ['Parrot', 'Falcon', 'Owl'];
 for (const bird of birds) {
     console.log(bird);
 }
+
+const data = "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
+
+const cities = data.split(',');
+console.log(cities);
+
+console.log(cities.length);
+console.log(cities[1]);
+
+const dogNames = ["Rocket", "Flash", "Bella", "Slugger"];
+const dogNamesUpdated = dogNames.join(', ');
+console.log(dogNamesUpdated);
+console.log(dogNamesUpdated.length);
