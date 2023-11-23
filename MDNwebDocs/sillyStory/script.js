@@ -1,7 +1,7 @@
 const randomize = document.querySelector('.randomize');
 const customname = document.querySelector('#customname');
 const story = document.querySelector('.story');
-const storyText = `It was ${temperature} outside, so ${xItem} went for a walk. When they got to ${yItem}, they stared in horror for a few moments, then ${zItem}. ${xItem} saw the whole thing, but was not surprised — ${xItem} weighs ${weight}, and it was a hot day.`;
+const storyText = `It was ${result} outside, so ${xItem} went for a walk. When they got to ${yItem}, they stared in horror for a few moments, then ${zItem}. ${xItem} saw the whole thing, but was not surprised — ${xItem} weighs ${result}, and it was a hot day.`;
 const insertx = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
 const inserty = ['the soup kitchen', 'Disneyland', 'the White House'];
 const insertz = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
