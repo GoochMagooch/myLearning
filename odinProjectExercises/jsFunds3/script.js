@@ -1,7 +1,5 @@
 /* adds 7 to a given parameter */
-function add7(num) {
-    return num + 7
-}
+let add7 = (num) => num + 7;
 
 console.log(add7(12))
 
