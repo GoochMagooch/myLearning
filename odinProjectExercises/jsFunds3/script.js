@@ -12,8 +12,9 @@ function multiply(num1,num2) {
 
 console.log(multiply(4,9));
 
+/* Function that capitalizes the first letter of a string */
 function capitalize(string) {
     return string.charAt().toUpperCase() + string.slice(1);
 }
 
-console.log(capitalize('this is my string'));
+console.log(capitalize('this is my boomstick!'));
