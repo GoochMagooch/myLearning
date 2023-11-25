@@ -32,5 +32,5 @@ for (let i = 0; i < num; i++) {
     textContent = i
 }
 
-Idea:
+IDEA:
 Make this work by using a button that outputs a random number and does everything else the same. Later
