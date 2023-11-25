@@ -6,11 +6,11 @@ function choose() {
     if (num.value >= 1 && num.value <= 100) {
         for (let i = 1; i <= num.value; i++){
             if (i % 3 === 0 && i % 5 === 0) {
-                console.log('Fizz')
+                console.log('FizzBuzz')
             } else if (i % 5 === 0) {
                 console.log('Buzz')
             } else if (i % 3 === 0) {
-                console.log('FizzBuzz')
+                console.log('Fizz')
             } else {
                 console.log(i)
             }
