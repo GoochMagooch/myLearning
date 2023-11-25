@@ -22,4 +22,3 @@ function choose() {
 }
 
 button.addEventListener('click', choose);
-
