@@ -8,12 +8,10 @@ function oddEven() {
                 console.log('even');
             } else if (num.value % 2 !== 0) {
                 console.log('odd');
-            } else {
-                console.log(i);
             }
         }
     } else {
-        alert('please enter a number');
+        alert('enter a number from 1 to 100');
     }
 }
 
