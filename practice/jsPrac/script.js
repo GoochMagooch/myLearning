@@ -6,7 +6,7 @@ function oddEven() {
         for (i = 1; i <= num.value; i++) {
             if (num.value % 2 === 0) {
                 console.log('even');
-            } else if (num.value % 2 !== 0) {
+            } else {
                 console.log('odd');
             }
         }
