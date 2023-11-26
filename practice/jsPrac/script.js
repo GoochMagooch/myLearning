@@ -4,8 +4,10 @@ const num = document.querySelector('.num');
 function oddEven() {
     if (num.value >= 1 && num.value <= 100) {
         for (i = 1; i <= num.value; i++) {
-            if (num.value % 2 === 0) {
+            if (i % 2 === 0) {
                 console.log('even');
+            } else if (i === 69) {
+                console.log('nice');
             } else {
                 console.log('odd');
             }
