@@ -2,12 +2,14 @@ const button = document.querySelector('.button');
 const num = document.querySelector('.num');
 
 function oddEven() {
-    if (num.value == typeof(Number)) {
+    if (num.value >= 1 && num.value <= 100) {
         for (i = 1; i <= num.value; i++) {
             if (num.value % 2 === 0) {
                 console.log('even');
-            } else {
+            } else if (num.value % 2 !== 0) {
                 console.log('odd');
+            } else {
+                console.log(i);
             }
         }
     } else {
