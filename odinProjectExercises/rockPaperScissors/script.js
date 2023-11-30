@@ -28,3 +28,10 @@ function game() {
 }
 
 button.addEventListener('click', game);
+
+function renewGame() {
+    location.reload()
+    game();
+}
+
+button.addEventListener('click', renewGame);
