@@ -43,9 +43,3 @@ function renewGame() {
 }
 
 button.addEventListener('click', renewGame);
-
-/*
-NOTES:
-Add a condition that runs an alert if anything other than 'rock', 'paper'
-or 'scissors' in inputted
-*/
