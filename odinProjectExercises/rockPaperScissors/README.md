@@ -9,3 +9,6 @@ if (input == 'rock' && random == 'scissors') {
     console.log('user wins!')
 }
 something like that
+The question is: what is the script going to need to contain in order for the computer to randomly choose between rock paper & scissors?
+
+Switch statement may be more practical for this situation
