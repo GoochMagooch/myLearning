@@ -1,5 +1,9 @@
 const button = document.querySelector('.button');
 const move = document.querySelector('.move');
+const compChoice = document.querySelector('.comp-choice');
+const userWin = document.querySelector('.user-win');
+const compWin = document.querySelector('.comp-win');
+const stalemate = document.querySelector('.stalemate');
 
 const rock = 'rock';
 const paper = 'paper';
