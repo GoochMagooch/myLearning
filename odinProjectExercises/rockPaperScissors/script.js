@@ -41,3 +41,4 @@ function game() {
 
 button.addEventListener('click', game);
 
+/* test */
